@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ecf0f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+  h4{
+    margin-left: 180px;
+  }
+
+.brand-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #1da1f2;
+    letter-spacing: 1px;
+  }
+
+.container {
+    position: relative;
+    width: 850px;
+    height: 460px;
+    border-radius: 20px;
+    padding: 90px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    margin: 100px auto;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .upload-button {
+    color: white;
+    background: #1da1f2;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+    margin-top: 110px;
+    margin-right: 90px;
+    margin-left: 270px;
+    border: none; 
+  }
+  
+  .submit-button {
+    color: white;
+    background: #1da1f2;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+    margin-top: 40px; 
+    margin-left: 270px; 
+    border: none; 
+  }
+  #csvFile {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-right: 90px;
+}
+
+/* -------------------------------------END OF CODE------------------------------- */ 
